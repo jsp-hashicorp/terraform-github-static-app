@@ -37,7 +37,7 @@ resource "github_repository_file" "readme" {
     destination_org = var.destination_org
   })
   commit_message      = "Added readme file."
-  commit_author       = "Platform team"
+  commit_author       = "KR Platform team"
   commit_email        = "no-reply@example.com"
   overwrite_on_create = true
 }
